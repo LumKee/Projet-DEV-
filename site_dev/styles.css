@@ -1,0 +1,25 @@
+h1 {
+	color: red;
+}
+
+.ui.violet.button {
+	width: 300px;
+	margin-left: 30px;
+	opacity: 0.8;
+	border: solid yellow 3px;
+	font-size: 18px;
+	font-family: 'futura';
+	text-transform: uppercase;
+	background-color: red;
+}
+
+.ui.basic.green.button {
+	width: 300px;
+	margin-left: 30px;
+	opacity: 0.8;
+	border: solid yellow 3px;
+	font-size: 18px;
+	font-family: 'futura';
+	text-transform: uppercase;
+	color: yellow;
+}
