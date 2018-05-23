@@ -1,0 +1,28 @@
+/*.ui.button {
+	color: red;
+	background: yellow;
+}
+
+*/
+.ui.menu {
+	visibility: visible;
+	background-color: black;
+	border-radius: 0px;
+	border: none;
+}
+.ui.menu:not(.item) {
+	opacity: 0.5;
+}
+
+.right.menu .item {
+	font-family: 'arial';
+	font-weight: bold;
+	color: white;
+}
+.max-width{
+	diplay:flex;
+	width:100%;
+}
+.ui .fluid .image{
+	width: 100%;
+}
