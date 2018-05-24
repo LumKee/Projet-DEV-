@@ -9,9 +9,32 @@
 	background-color: black;
 	border-radius: 0px;
 	border: none;
+	display: flex;
+
+}
+.ui.menu .menu{
+	width:100%;
+	justify-content: space-between;
+	margin: auto;
+}
+.ui.menu.fixed{
+	margin: auto;
+	height: 10vh;
+}
+.ui.menu .item{
+	color: #FFFFFF;
+	font-size: 1.6em;
+
+}
+.ui.menu:not(.vertical) .item{
+	margin-left: 4%;
+}
+.ui.menu a.item:hover{
+	background-color: #ffffff;
+	color:black;
 }
 .ui.menu:not(.item) {
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 .right.menu .item {
@@ -25,4 +48,8 @@
 }
 .ui .fluid .image{
 	width: 100%;
+}
+.test {
+	width: 100vw;
+	height: 100vh;
 }
