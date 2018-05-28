@@ -1,4 +1,5 @@
 // console.log('hello')
+
 $('.slider').glide({
   autoplay: false,
   arrowsWrapperClass: 'slider-arrows',
