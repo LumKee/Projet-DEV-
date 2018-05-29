@@ -47,12 +47,19 @@
 	width:100%;
 }
 .ui .image{
-	display: inline-block;
 	position:relative;
 }
 .ui .fluid .image{
 	width: 100%;
 	z-index: 1;
+}
+.image .content{
+	position:relative;
+	overflow:hidden;
+	width: 20px;
+}
+.description{
+	position: relative;
 }
 .test {
 	width: 100vw;
@@ -67,14 +74,4 @@
 }
 .slider .slider1 div{
 	z-index: 1
-}
-.ui .inverted .vertical .masthead .center .aligned .segment{
-	position:absolute;
-}
-.sixteen .wide .column{
-	position: relative;
-
-}
-.ui .text .container{
-	postion:absolute;
 }
