@@ -46,6 +46,10 @@
 	diplay:flex;
 	width:100%;
 }
+.ui .image{
+	display: inline-block;
+	position:relative;
+}
 .ui .fluid .image{
 	width: 100%;
 	z-index: 1;
