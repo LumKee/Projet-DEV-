@@ -45,19 +45,50 @@
   background-repeat: no-repeat;
   background-size: cover;
 	height: 100%;
+	margin-bottom: 5.7vh;
 }
 .ui.centered.grid > .column:not(.aligned):not(.justified):not(.row), .ui.centered.grid > .row > .column:not(.aligned):not(.justified), .ui.grid .centered.row > .column:not(.aligned):not(.justified){
-	margin-top: 40vh;
+	margin-top: auto;
 }
-.row h1{
+.rowTitle{
+	margin-top: 50vh;
+}
+.rowTitle h1{
 	font-size: 6.5em;
 	text-align: center;
 	color: white;
 	font-family: 'Pinyon Script';
 }
-.row h2{
+.rowTitle h2{
 	font-size: 1.5em;
 	text-align: center;
 	color: white;
+
+}
+
+/*SLIDE ARROW*/
+
+.SlideArrow{
+	height:8vh;
+	z-index: 10;
+	padding-top: 4vh;
+}
+#arrow{
+	margin: auto;
+}
+/*CARROUSEL*/
+.slides{
+	height: 80vh;
+	margin-bottom:5.7vh;
+}
+/*ARTISTS*/
+.backgroundImg_Artists{
+	background-image: url("images/secondGround.jpeg");
+	background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: 100%;
+	margin-bottom: 5.7vh;
 
 }
