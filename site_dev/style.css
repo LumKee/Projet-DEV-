@@ -47,44 +47,17 @@
 	height: 100%;
 }
 .ui.centered.grid > .column:not(.aligned):not(.justified):not(.row), .ui.centered.grid > .row > .column:not(.aligned):not(.justified), .ui.grid .centered.row > .column:not(.aligned):not(.justified){
-	margin-top: 50vh;
+	margin-top: 40vh;
 }
 .row h1{
-	font-size: 8em;
+	font-size: 6.5em;
 	text-align: center;
 	color: white;
 	font-family: 'Pinyon Script';
 }
-/*.max-width{
-	diplay:flex;
-	width:100%;
-}
-.ui .image{
-	position:relative;
-}
-.ui .fluid .image{
-	width: 100%;
-	z-index: 1;
-}
-.image .content{
-	position:relative;
-	overflow:hidden;
-	width: 20px;
-}
-.description{
-	position: relative;
-}
-.test {
-	width: 100vw;
-	height: 100vh;
-}
-.test p{
+.row h2{
+	font-size: 1.5em;
 	text-align: center;
-	vertical-align: middle;
-	width: 40vw;
-	margin: auto;
-	z-index: 100;
-}
-.slider .slider1 div{
-	z-index: 1
+	color: white;
+
 }
