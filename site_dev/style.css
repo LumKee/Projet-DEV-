@@ -1,3 +1,4 @@
+/* MENU*/
 .ui.menu {
 	visibility: visible;
 	background-color: black;
@@ -36,7 +37,25 @@
 	font-weight: bold;
 	color: white;
 }
-.max-width{
+/*FIRST PIC*/
+.backgroundImg{
+	background-image: url("images/firstGround.jpg");
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: 100%;
+}
+.ui.centered.grid > .column:not(.aligned):not(.justified):not(.row), .ui.centered.grid > .row > .column:not(.aligned):not(.justified), .ui.grid .centered.row > .column:not(.aligned):not(.justified){
+	margin-top: 50vh;
+}
+.row h1{
+	font-size: 8em;
+	text-align: center;
+	color: white;
+	font-family: 'Pinyon Script';
+}
+/*.max-width{
 	diplay:flex;
 	width:100%;
 }
