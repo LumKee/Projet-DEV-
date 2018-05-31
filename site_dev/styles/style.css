@@ -39,7 +39,7 @@
 }
 /*FIRST PIC*/
 .backgroundImg{
-	background-image: url("images/firstGround.jpg");
+	background-image: url("../images/firstGround.jpg");
 	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@
 }
 /*ARTISTS*/
 .backgroundImg_Artists{
-	background-image: url("images/secondGround.jpeg");
+	background-image: url("../images/secondGround.jpeg");
 	background-attachment: fixed;
   background-position:center;
   background-repeat: no-repeat;
