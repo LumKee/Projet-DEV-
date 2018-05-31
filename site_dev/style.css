@@ -88,9 +88,7 @@
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
-	height: 100%;
 	margin-bottom: 5.7vh;
-
 }
 .backgroundImg_Artists h2{
 	text-align: center;
@@ -103,17 +101,75 @@
 	width:8vw;
 	padding-top: 4vh;
 }
+/*MYLOOZ*/
 .left .floated .column{
 	width: 50vw;
 }
 .MyloozDescription p{
-	width: 55vw;
+	width: 35vw;
 	padding-right: 4vw;
 	color: white;
+	font-size: 1.2em;
+}
+.MyloozDescription h3{
+	color: white;
+	font-size: 2em;
 }
 #mylooz{
 	padding-right: 3vw;
+	width:25vh;
 }
 #MyloozDescription{
 	margin-top: 3vh;
+}
+#MyloozItems{
+	margin-right: 15vw;
+}
+
+/*MADEMOISELLE HIRONDELLE*/
+.right .floated .column{
+	width: 50vw;
+}
+.HirondelleDescription p{
+	width: 35vw;
+	padding-right: 4vw;
+	color: white;
+	font-size: 1.2em;
+}
+.HirondelleDescription h3{
+	color: white;
+	margin-right: 3.5vw;
+	font-size: 2em;
+}
+#Hirondelle{
+	padding-right: 3vw;
+	width:25vh;
+}
+#HirondelleDescription{
+	margin-top: 3vh;
+}
+.ui.grid > [class*="four column"].row > .column{
+	width: auto;
+}
+#HirondelleItems{
+	margin-left: 15vw;
+	padding-bottom: 7.5vh;
+}
+/*GALERIE*/
+.galerie{
+	width:100%;
+}
+.galerie h2{
+	text-align: center;
+	font-size: 3.5em;
+}
+/*ASSOCIATION*/
+.backgroundImg_association{
+	background-image: url("images/association.png");
+	background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	margin-bottom: 5.7vh;
+	width: 100%;
 }
