@@ -92,3 +92,28 @@
 	margin-bottom: 5.7vh;
 
 }
+.backgroundImg_Artists h2{
+	text-align: center;
+	font-size: 3.5em;
+	color: white;
+	padding-top: 10vh;
+}
+.skullImg{
+	margin: auto;
+	width:8vw;
+	padding-top: 4vh;
+}
+.left .floated .column{
+	width: 50vw;
+}
+.MyloozDescription p{
+	width: 55vw;
+	padding-right: 4vw;
+	color: white;
+}
+#mylooz{
+	padding-right: 3vw;
+}
+#MyloozDescription{
+	margin-top: 3vh;
+}
