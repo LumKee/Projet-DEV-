@@ -1,0 +1,36 @@
+/*RESPONSIVE*/
+
+
+/*MENU*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+  html,body{
+    width: 100%;
+  }
+  .hamburger_menu{
+    display: block;
+    background-color: blue;
+    width: 35px;
+    height: 50px;
+    cursor: pointer;
+
+  }
+  .hamburger_menu:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 0;
+    box-shadow: 0 10px 0 1px #FFF,0 16px 0 1px #FFF,0 22px 0 1px #FFF;
+  }
+  .ui .top .fixed .menu{
+    width: 100vw;
+  }
+  .ui .menu .item{
+    background: blue;
+    display: none;
+  }
+
+}
