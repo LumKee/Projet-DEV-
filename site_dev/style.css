@@ -57,7 +57,7 @@
 	margin-top: auto;
 }
 .rowTitle{
-	margin-top: 50vh;
+	margin-top: 50%;
 }
 .rowTitle h1{
 	font-size: 6.5em;
@@ -77,9 +77,11 @@
 .SlideArrow{
 	height:8vh;
 	z-index: 10;
-	padding-top: 4vh;
+	padding-top: 0.5%;
+	margin: auto;
 }
 #arrow{
+	width: 25%;
 	margin: auto;
 }
 /*CARROUSEL*/

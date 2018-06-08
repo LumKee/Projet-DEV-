@@ -1,17 +1,12 @@
 /*RESPONSIVE*/
 
-
 /*MENU*/
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) {
+@media screen and (min-width: 200px) and (max-width: 640px)  {
   html,body{
     width: 100%;
   }
   .hamburger_menu{
     display: block;
-    background-color: blue;
     width: 35px;
     height: 50px;
     cursor: pointer;
@@ -21,16 +16,63 @@ and (-webkit-device-pixel-ratio : 3) {
     content: '';
     position: absolute;
     display: block;
-    width: 16px;
+    width: 9vw;
     height: 0;
-    box-shadow: 0 10px 0 1px #FFF,0 16px 0 1px #FFF,0 22px 0 1px #FFF;
+    box-shadow: 0 10px 0 1px #FFF,0 16px 0 1px #FFF,0 22px 0 1px #FFF, 0 28px 0 1px #FFF;
   }
   .ui .top .fixed .menu{
-    width: 100vw;
+    width: 10vw;
   }
   .ui .menu .item{
     background: blue;
+  }
+  .ui.menu .item.hidden{
     display: none;
   }
+.ui .top .fixed .menu{
+  height: 5vh;
+  width: 10vw;
+}
+.ui.grid{
+  overflow: hidden;
+}
+.column.rowTitle{
+  margin-top:20vh;
+}
+.slider1{
+  padding-top: 0px;
+}
+.ui.fluid.images, .ui.fluid.image, .ui.fluid.images img, .ui.fluid.images svg, .ui.fluid.image svg, .ui.fluid.image img{
+  height: 25vh;
+}
+.ui.grid > .row{
+  display: block;
+  width: 0;
+}
+.MyloozDescription{
+  margin: auto;
+}
+.MyloozDescription p{
+  width: 85vw;
+  text-align: center;
 
+}
+.MyloozDescription h3{
+  text-align: center;
+}
+.HirondelleDescription{
+  margin: auto;
+}
+.HirondelleDescription p{
+  width: 85vw;
+  text-align: center;
+
+}
+.HirondelleDescription h3{
+  text-align: center;
+}
+}
+@media only screen and (max-width: 480px){
+.slider1 {
+padding-top: 0;}
 }
