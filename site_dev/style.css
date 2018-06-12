@@ -6,6 +6,8 @@
 	border-radius: 0px;
 	border: none;
 	display: flex;
+	transition: all 0.5s;
+  z-index: 997;
 
 }
 .ui.menu .menu{
@@ -54,6 +56,15 @@
   background-size: cover;
 	height: 100%;
 	margin-bottom: 6%;
+	position: relative;
+}
+.backgroundImg :before{
+	content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .rowTitle{
