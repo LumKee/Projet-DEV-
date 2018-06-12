@@ -33,6 +33,9 @@
     height: 25vh;
   }
   /*ARTISTS*/
+  .skullImg{
+    width: 100%;
+   }
   .ui.grid > .row{
     display: block;
     width: 0;
@@ -41,7 +44,7 @@
     margin: auto;
   }
   .MyloozDescription p{
-    width: 85vw;
+    width: 100%;
     text-align: center;
   }
   .MyloozDescription h3{
@@ -51,7 +54,7 @@
     margin: auto;
   }
   .HirondelleDescription p{
-    width: 85vw;
+    width: 100%;
     text-align: center;
   }
   .HirondelleDescription h3{
