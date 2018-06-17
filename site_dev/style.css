@@ -255,7 +255,7 @@
     margin: auto;
     width:6vw;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
 }
 
 .AssociationDescription{
@@ -273,53 +273,66 @@
 .ui.three.column.grid {
     color: black;
     display: flex;
-    justify-content:space-around;
     margin-top: 10vh;
 
 }
 
 .columnContact{
     text-align: center;
-		border-right: 1px solid black;
-		width: 20vw;
+		border-right: 3px solid black;
+		width: 33vw;
 }
 
 .columnHoraires{
   text-align: center;
-	border-right: 1px solid black;
-	width: 20vw;
+	border-right: 3px solid black;
+	width: 34vw;
 
 }
 .columnAdresse{
   text-align: center;
+	width: 33vw
 }
 
 .contactImg{
   margin: auto;
   width:6vw;
   padding-top: 5vh;
+	padding-bottom: 10vh;
 }
 
 .logoFbFooter{
-    margin: auto;
     width:2vw;
-    float: left;
+		margin-right: 5px;
 }
 
 .logoInstaFooter{
-    margin: auto;
     width:2vw;
-    float: left;
+		margin-right: 5px;
 }
 
 .logoMetro{
-    margin: auto;
     width: 3vw;
-    float: left;
+		margin-right: 5px;
 }
 
 .logoBus{
-    margin: auto;
     width: 3vw;
-    float: left;
+		margin-right: 5px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  }
+.footer{
+width: 100%;
+display: flex;
+background-color: black;
+margin-top:5vh;
+}
+.footer p{
+	color: white;
+	margin: auto;
+
 }

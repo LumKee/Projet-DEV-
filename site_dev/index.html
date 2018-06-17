@@ -211,7 +211,7 @@
 <div class="contactImg">
     <img id="contact" class="ui tiny image" src="images/contact.png" alt="contactImg">
 </div>
-<div class="ui three column grid">
+<div id="contact" class="ui three column grid">
   <div class="row">
     <div class="columnContact">
             <h3>    CONTACT </h3>
@@ -248,12 +248,18 @@
             <p><img class="logoBus" src="images/BUS_102.png"> Marche de Montreuil </p>
         </div>
   </div>
+	<div id="map"></div>
+
+
 
 <!--JS / jQuery-->
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
 <script src="diamond.js/jquery.diamonds.js"></script>
 <script src="semantic/semantic.js"></script>
 <script src="script/app.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTb_vZzpcI57huOZastZcoAJUVpgygyd4&callback=initMap">
+    </script>
 
 <!-- JS-->
 <script  src="script/app.js"></script>
@@ -262,4 +268,8 @@
 <script src="semantic.js"></script>
 <!-- <script src="app.js"></script> -->
 </body>
+<div class="footer">
+	<p>© 2018 par The Tattooed Lady</p>
+
+</div>
 </html>
