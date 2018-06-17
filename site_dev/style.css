@@ -237,12 +237,84 @@
 }
 /*ASSOCIATION*/
 .backgroundImg_association{
-	background-image: url("images/association.png");
-	background-attachment: fixed;
+  background-image: url("images/association.png");
+  background-attachment: fixed;
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
-	margin-bottom: 5.7vh;
-	width: 100%;
-	height: 100vh;
+  margin-bottom: 5.7vh;
+  width: 100%;
+}
+.association h2{
+    text-align: center;
+    font-size: 3.5em;
+    color: white;
+    padding-top: 10vh;
+}
+.loveImg{
+    margin: auto;
+    width:6vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.AssociationDescription{
+    text-align: center;
+    color: white;
+    padding-bottom: 20vh;
+}
+/* NOUS CONTACTER/
+.titleContact h2{
+    color: black;
+    text-align: center;
+    font-size: 3.5em;
+}
+/ Les 3 colonnes */
+.ui.three.column.grid {
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10vh;
+
+}
+
+.columnContact{
+    text-align: center;
+}
+
+.columnHoraires{
+    text-align: center;
+}
+.columnAdresse{
+    text-align: center;
+}
+
+.contactImg{
+    margin: auto;
+    width:6vw;
+    padding-top: 5vh;
+}
+
+.logoFbFooter{
+    margin: auto;
+    width:2vw;
+    float: left;
+}
+
+.logoInstaFooter{
+    margin: auto;
+    width:2vw;
+    float: left;
+}
+
+.logoMetro{
+    margin: auto;
+    width: 3vw;
+    float: left;
+}
+
+.logoBus{
+    margin: auto;
+    width: 3vw;
+    float: left;
 }
