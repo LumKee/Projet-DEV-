@@ -263,13 +263,13 @@
     color: white;
     padding-bottom: 20vh;
 }
-/* NOUS CONTACTER/
+/* NOUS CONTACTER*/
 .titleContact h2{
     color: black;
     text-align: center;
     font-size: 3.5em;
 }
-/ Les 3 colonnes */
+/* Les 3 colonnes */
 .ui.three.column.grid {
     color: black;
     display: flex;
@@ -280,19 +280,24 @@
 
 .columnContact{
     text-align: center;
+		border-right: 1px solid black;
+		width: 20vw;
 }
 
 .columnHoraires{
-    text-align: center;
+  text-align: center;
+	border-right: 1px solid black;
+	width: 20vw;
+
 }
 .columnAdresse{
-    text-align: center;
+  text-align: center;
 }
 
 .contactImg{
-    margin: auto;
-    width:6vw;
-    padding-top: 5vh;
+  margin: auto;
+  width:6vw;
+  padding-top: 5vh;
 }
 
 .logoFbFooter{
