@@ -1,6 +1,6 @@
 
 /*RESPONSIVE_MENU*/
-@media screen and (min-width: 200px) and (max-width: 400px)  {
+@media screen and (min-width: 200px) and (max-width: 800px)  {
   /*MENU*/
   .ui .top .fixed .menu{
     height: 5vh;
