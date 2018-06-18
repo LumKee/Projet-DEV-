@@ -61,3 +61,25 @@
     text-align: center;
   }
 }
+/*CONTACT*/
+.columnContact{
+    text-align: center;
+		width: 33vw;
+    margin: auto;
+    margin-bottom: 5vh;
+    
+}
+
+.columnHoraires{
+  text-align: center;
+	width: 33vw;
+  margin: auto;
+  margin-bottom: 5vh;
+
+}
+.columnAdresse{
+  text-align: center;
+	width: 33vw;
+  margin: auto;
+  padding-bottom: 2vh;
+}

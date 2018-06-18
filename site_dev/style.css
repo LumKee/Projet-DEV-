@@ -55,8 +55,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 	height: 100%;
-	margin-bottom: 6%;
+	margin-bottom: 5.7vw;
 	position: relative;
+	width: 100vw;
 }
 .backgroundImg :before{
 	content: "";
@@ -105,6 +106,8 @@
 .slides{
 	height: 80vh;
 	margin-bottom:5.7vh;
+	width: 100vw;
+	margin-top: 0;
 }
 /*ARTISTS*/
 .backgroundImg_Artists{
@@ -113,6 +116,7 @@
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
+	width: 100vw;
 	margin-bottom: 5.7vh;
 }
 .backgroundImg_Artists h2{
@@ -235,33 +239,73 @@
 .diamond-row-lower{
 	margin: auto;
 }
-/*ASSOCIATION*/
-.backgroundImg_association{
-  background-image: url("images/association.png");
-  background-attachment: fixed;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 5.7vh;
-  width: 100%;
+/**ASSOCIATION**/
+
+.associationBg {
+    background-image: url("images/association.png");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5.7vh;
+    width: 100%;
 }
-.association h2{
+.association h2 {
     text-align: center;
     font-size: 3.5em;
     color: white;
     padding-top: 10vh;
 }
-.loveImg{
+.association p {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.loveImg {
     margin: auto;
     width:6vw;
     padding-top: 5vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
-
-.AssociationDescription{
-    text-align: center;
+.associationBg .ui.items {
+    padding-left: 49vh;
+}
+.associationBg .ui.items .item:last-child {
+    padding-top: 5vh;
+    padding-bottom: 7.5vh;
+}
+#ministereLink a {
     color: white;
-    padding-bottom: 20vh;
+}
+#ministereLink a:hover {
+    opacity: 0.5;
+}
+#ministereImg {
+    filter: grayscale(100%);
+    border-radius: 50%;
+    border: solid 3px black;
+}
+#ministereImg:hover {
+    filter: grayscale(0%);
+    opacity: 0.7;
+    transition: 0.3s ease-in;
+}
+#asefImg {
+    filter: grayscale(100%);
+    border-radius: 50%;
+    border: solid 3px black;
+}
+#asefImg:hover {
+    filter: grayscale(0%);
+    opacity: 0.7;
+    transition: 0.3s ease-in;
+}
+#asefLink a {
+    color: white;
+}
+#asefLink a:hover {
+    opacity: 0.5;
 }
 /* NOUS CONTACTER*/
 .titleContact h2{
@@ -279,19 +323,22 @@
 
 .columnContact{
     text-align: center;
-		border-right: 3px solid black;
+		border-right:3px solid black;
+		border-left:3px solid black;
 		width: 33vw;
 }
 
 .columnHoraires{
   text-align: center;
-	border-right: 3px solid black;
-	width: 34vw;
+	width: 33vw;
+
 
 }
 .columnAdresse{
   text-align: center;
-	width: 33vw
+	border-left:3px solid black;
+	width: 33vw;
+	margin: auto;
 }
 
 .contactImg{
