@@ -1,4 +1,11 @@
-// console.log('hello')
+var SlideArrow= document.querySelectorAll(".ScrollArrow")
+var SlideArrowWidth= document.querySelectorAll(".ScrollArrow").offsetHeight
+let firstPic= document.querySelectorAll("backgroundImg").offsetHeight
+function Slidearrow(){
+  let position = SlideArrowWidth-firstPic
+  SlideArrow.style.top="width"
+}
+
 
 $('.slider').glide({
   autoplay: false,
