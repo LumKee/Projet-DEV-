@@ -250,6 +250,14 @@
     margin-bottom: 5.7vh;
     width: 100%;
 }
+.assocition_p{
+	color: white;
+	margin: auto;
+	text-align: center;
+	margin-top: 5vh;
+	margin-bottom: 6vh;
+	font-size: 1.5em;
+}
 .association h2 {
     text-align: center;
     font-size: 3.5em;
