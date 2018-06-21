@@ -1,3 +1,22 @@
+$(".diamond-grid").diamonds({
+    size : 280,
+    gap : 8,
+    hideIncompleteRow : false,
+    autoRedraw : true,
+    itemSelector :".block"
+});
+let slidebar = document.querySelectorAll("#none")
+let hamburger = document.querySelectorAll(".hamburger")
+function click(){
+  slidebar.style.display='block'
+}
+hamburger.addEventListener('click', click());
+
+// Diamond gallery
+
+
+
+
 $(document).ready(function() {
     $('.js-scrollTo').on('click', function() {
         var page = $(this).attr('href');
@@ -15,15 +34,6 @@ $('.slider').glide({
   arrowLeftText: ''
 });
 
-// Diamond gallery
-
-$(".diamond-grid").diamonds({
-  size: 100,
-  gap: 5,
-  hideIncompleteRow: false,
-  autoRedraw: true,
-  itemSelector: ".item"
-});
 
 function initMap() {
   var uluru = {
