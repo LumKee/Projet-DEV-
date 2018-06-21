@@ -1,0 +1,85 @@
+
+/*RESPONSIVE_MENU*/
+@media screen and (min-width: 200px) and (max-width: 800px)  {
+  /*MENU*/
+  .ui .top .fixed .menu{
+    height: 5vh;
+    width: 10vw;
+  }
+  /*MENU_HAMBURGER*/
+  .hamburger{
+    display: block;
+    width: 35px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .hamburger:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 9vw;
+    height: 0;
+    box-shadow: 0 10px 0 1px #FFF,0 16px 0 1px #FFF,0 22px 0 1px #FFF, 0 28px 0 1px #FFF;
+  }
+  .ui.menu .item.hidden{
+    display: none;
+  }
+  /*FIRST PIC*/
+  .ui.grid{
+    overflow: hidden;
+  }
+  /*CARROUSEL*/
+  .ui.fluid.images, .ui.fluid.image, .ui.fluid.images img, .ui.fluid.images svg, .ui.fluid.image svg, .ui.fluid.image img{
+    height: 25vh;
+  }
+  /*ARTISTS*/
+  .skullImg{
+    width: 100%;
+   }
+  .ui.grid > .row{
+    display: block;
+    width: 0;
+  }
+  .MyloozDescription{
+    margin: auto;
+  }
+  .MyloozDescription p{
+    width: 100%;
+    text-align: center;
+  }
+  .MyloozDescription h3{
+    text-align: center;
+  }
+  .HirondelleDescription{
+    margin: auto;
+  }
+  .HirondelleDescription p{
+    width: 100%;
+    text-align: center;
+  }
+  .HirondelleDescription h3{
+    text-align: center;
+  }
+}
+/*CONTACT*/
+.columnContact{
+    text-align: center;
+		width: 33vw;
+    margin: auto;
+    margin-bottom: 5vh;
+    
+}
+
+.columnHoraires{
+  text-align: center;
+	width: 33vw;
+  margin: auto;
+  margin-bottom: 5vh;
+
+}
+.columnAdresse{
+  text-align: center;
+	width: 33vw;
+  margin: auto;
+  padding-bottom: 2vh;
+}
