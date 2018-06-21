@@ -2,7 +2,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family:'raleway', sans-serif;
+	font-family:'Arial', sans-serif;
 }
 html, body { height: 100%; }
 html {
@@ -20,14 +20,14 @@ body {
 }
 a, a:hover, a:active {color:#555;}
 h2, h3, h4, h6 {
-		font-family:'raleway', sans-serif;
+		font-family:'Arial', sans-serif;
 }
 h1 {
-	font-family:'lobster', sans-serif;
+	font-family:'Spinnaker', sans-serif;
 	font-size:5em;
 }
 h5{
-	font-family:'lobster', sans-serif;
+	font-family:'Spinnaker', sans-serif;
 	font-size:1.5em;
 }
 p {
@@ -88,7 +88,7 @@ body h1.ui.header {
 }
 
 .ui.header.centered.lobster {
-	font-family:'lobster', sans-serif;
+	font-family:'Spinnaker', sans-serif;
 }
 
 /* effects css */
@@ -234,7 +234,7 @@ body h1.ui.header {
 	border-top:1px solid #333;
 }
 .footer-bottom .centered, .footer-bottom .centered span {
-	font-family:'lobster', sans-serif;
+	font-family:'Spinnaker', sans-serif;
 }
 
 /* nav */
@@ -253,13 +253,13 @@ body #leftButton:hover{
 	background:#333;
 }
 body #menu h4 {
-	font-family:'lobster', sans-serif;
+	font-family:'Spinnaker', sans-serif;
 	font-weight:normal;
 	tex-shadow:0 0 0 #000;
 	font-size:1em;
 }
 body #menu a.hide b {
-	font-family:'raleway', sans-serif;
+	font-family:'Arial', sans-serif;
 }
 
 body #menu a  {
@@ -325,7 +325,7 @@ img.centered {
 	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .date, .date a {
-	font-family:'lobster', sans-serif;
+	font-family:'Spinnaker', sans-serif;
 }
 .like-this img {
 	height:100px;
@@ -344,7 +344,7 @@ img.centered {
 	text-align:left !important;
 }
 .special {
-	font-family:'lobster', sans-serif;
+	font-family:'Spinnaker', sans-serif;
 	font-size:3em;
 	margin:.3em 0;
 }
@@ -489,7 +489,7 @@ img[src="/assets/swingset.png"] {
 	min-height:410px;
 }
 .meta {
-	font-family: 'lobster', sans-serif;
+	font-family: 'Spinnaker', sans-serif;
 }
 .mobile.only {
 	display:none;
